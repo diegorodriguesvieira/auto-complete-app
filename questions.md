@@ -48,6 +48,7 @@ class Numbers extends React.PureComponent {
 ```
 
 2. Context + ShouldComponentUpdate might be dangerous. Can think of why is that?
+
    Because if within a component tree some component decides not to render, the children of that component can work with inconsistent context values.
 
 3. Describe 3 ways to pass information from a component to its PARENT.
@@ -57,6 +58,7 @@ class Numbers extends React.PureComponent {
    3- There are also several libraries for global state management, where in any part of the system we have only a single data source of truth, which can be accessed from any component.
 
 4. Give 2 ways to prevent components from re-rendering.
+
    We can use `React.memo(YourComponent)` and `React.PureComponent`.
 
 5. What is a fragment and why do we need it? Give an example where it might break my app.
@@ -121,6 +123,7 @@ function WithLoading(Component) {
 ```
 
 7. what's the difference in handling exceptions in promises, callbacks and async...await.
+
    Using `Promise` you can handle the exceptions with the `.catch` method.
 
    Using `async await` you can handle the exceptions using `try {} catch`.
@@ -138,6 +141,7 @@ function WithLoading(Component) {
    ```
 
 8. How many arguments does setState take and why is it async.
+
    `setState` can receive two arguments: the state and the callback;
 
    With `setState` being asynchronous we can handle multiple `setState` in batch improving performance and also helps consistency as input of props is asynchronous.
@@ -192,4 +196,5 @@ function WithLoading(Component) {
     4- You can also use CSS preprocessor like `Sass`, `LESS` and `Stylus`.
 
 11. How to render an HTML string coming from the server.
+
     You can render using `dangerouslySetInnerHTML`

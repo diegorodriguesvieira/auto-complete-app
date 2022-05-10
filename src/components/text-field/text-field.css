@@ -1,0 +1,20 @@
+.text-field {
+  background: var(--white);
+  border-radius: 8px;
+  border: 0.1rem solid var(--gray-400);
+  font-family: 'Inter', sans-serif;
+  font-size: 1.4rem;
+  height: 5.6rem;
+  line-height: 2.4rem;
+  outline: none;
+  padding: 1.6rem;
+  width: 100%;
+}
+
+.text-field:hover {
+  border-color: var(--gray-500);
+}
+
+.text-field:focus {
+  border-color: var(--primary);
+}

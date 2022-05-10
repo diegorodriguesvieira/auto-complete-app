@@ -1,0 +1,30 @@
+.auto-complete {
+  position: relative;
+}
+
+.auto-complete__field-holder {
+  display: flex;
+  align-items: center;
+}
+
+.complete__text-field {
+  padding-right: 4.4rem;
+}
+
+.auto-complete__arrow-icon {
+  cursor: pointer;
+  fill: var(--primary);
+  pointer-events: none;
+  position: absolute;
+  right: 1.6rem;
+}
+
+.auto-complete__dropdown {
+  background-color: var(--white);
+  margin-top: 0.4rem;
+  max-height: 41.6rem;
+  overflow-y: auto;
+  padding: 1.6rem;
+  position: absolute;
+  width: 100%;
+}

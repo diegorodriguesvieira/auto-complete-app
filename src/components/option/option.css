@@ -1,0 +1,18 @@
+.option {
+  background-color: var(--white);
+  border-radius: var(--border-radius);
+  color: var(--black);
+  font-size: 1.4rem;
+  line-height: 2.4rem;
+  padding: 1.2rem 1.6rem;
+}
+
+.option:not(.option--disabled):hover {
+  background-color: var(--blue-100);
+  cursor: pointer;
+}
+
+.option--disabled {
+  color: var(--gray-500);
+  user-select: none;
+}

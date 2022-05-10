@@ -1,0 +1,39 @@
+:root {
+  --black: #000000;
+  --blue-100: #eaf1fe;
+  --blue-500: #2c71f0;
+  --border-radius: 0.8rem;
+  --gray-200: #f4f3f6;
+  --gray-300: #e8ebf2;
+  --gray-400: #d1d3d5;
+  --gray-500: #7c8286;
+  --primary: var(--blue-500);
+  --white: #ffffff;
+}
+
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: var(--gray-200);
+  font-family: 'Inter', sans-serif;
+  font-size: 1.6rem;
+  margin: 3.2rem;
+}
+
+pre {
+  text-align: center;
+  margin: 1.6rem 0 0 0;
+  white-space: pre-wrap;
+}
+
+code {
+  font-family: monospace;
+}

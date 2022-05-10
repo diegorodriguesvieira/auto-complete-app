@@ -1,0 +1,5 @@
+.highlighted--text {
+  color: var(--primary);
+  background-color: transparent;
+  font-weight: 600;
+}

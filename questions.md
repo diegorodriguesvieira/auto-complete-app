@@ -74,7 +74,7 @@ export function MyComponent() {
       <One />
       <Two />
       <Three />
-    </React.Fragme>
+    </React.Fragment>
   );
 }
 
@@ -161,11 +161,17 @@ function WithLoading(Component) {
 9. List the steps needed to migrate a Class to Function Component.
 
    1- Replace the `class` structure with a `function`
+   
    2- Remove the `constructor`
+   
    3- Replace the `this.state` to `React.useState` hook
+   
    4- Remove all references to `this`
+   
    5- Convert all `class` methods to `functions`
+   
    6- Migrage the lifecycle methods to `React.useEffect` hook
+   
    7- Remove the `render` method and `return` the component
 
 10. List a few ways styles can be used with components.

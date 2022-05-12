@@ -54,7 +54,9 @@ class Numbers extends React.PureComponent {
 3. Describe 3 ways to pass information from a component to its PARENT.
 
    1- With callback function. Where a function is passed from parent to child where the child executes the function by passing some parameter back.
+   
    2- With Context API we can place components inside a Context Provider and from there we can access any data in any component.
+   
    3- There are also several libraries for global state management, where in any part of the system we have only a single data source of truth, which can be accessed from any component.
 
 4. Give 2 ways to prevent components from re-rendering.
